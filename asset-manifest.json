@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/RentalCar/static/css/main.8f9285f8.css",
+    "main.js": "/RentalCar/static/js/main.4ad1c403.js",
+    "static/media/boxicons.svg": "/RentalCar/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/RentalCar/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/RentalCar/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/RentalCar/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/RentalCar/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/RentalCar/index.html",
+    "main.8f9285f8.css.map": "/RentalCar/static/css/main.8f9285f8.css.map",
+    "main.4ad1c403.js.map": "/RentalCar/static/js/main.4ad1c403.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f9285f8.css",
+    "static/js/main.4ad1c403.js"
+  ]
+}
