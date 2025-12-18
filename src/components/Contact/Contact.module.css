@@ -1,0 +1,204 @@
+.contactPage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f8f9fa;
+}
+
+
+.contactMain {
+  flex: 1;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 32px 20px;
+  background: linear-gradient(120deg, #f8f9fa 60%, #e3f0ff 100%);
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+
+.pageTitle {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #1a237e;
+  letter-spacing: 1px;
+}
+
+.contactCard {
+  display: flex;
+  gap: 40px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 32px 24px;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.leftPane {
+  flex: 1 1 320px;
+  min-width: 280px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #e3e3e3;
+  padding-right: 32px;
+  margin-bottom: 24px;
+}
+
+.rightPane {
+  flex: 1 1 340px;
+  min-width: 300px;
+  max-width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 32px;
+}
+
+
+.aboutSection {
+  width: 100%;
+  text-align: center;
+}
+
+
+.ownerPhoto {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #1976d2;
+  margin-bottom: 16px;
+}
+
+.aboutSection h2 {
+  font-size: 1.4rem;
+  color: #1976d2;
+  margin-bottom: 10px;
+}
+.aboutSection p {
+  font-size: 1.05rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+.aboutSection ul {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 320px;
+  padding-left: 18px;
+  color: #444;
+  font-size: 1rem;
+}
+.aboutSection li {
+  margin-bottom: 6px;
+}
+
+.ownerPhoto {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+.contactSection {
+  margin-bottom: 32px;
+}
+
+.contactDetails > div {
+  margin-bottom: 8px;
+  font-size: 1.1em;
+}
+
+
+.formSection {
+  width: 100%;
+  background: #f5faff;
+  border-radius: 12px;
+  padding: 24px 18px 18px 18px;
+  box-shadow: 0 1px 8px rgba(25, 118, 210, 0.07);
+  margin-bottom: 0;
+}
+.formSection h2 {
+  text-align: center;
+  color: #1976d2;
+  font-size: 1.2rem;
+  margin-bottom: 18px;
+}
+
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+
+
+.contactForm label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  color: #222;
+  font-size: 1rem;
+}
+
+
+.contactForm input,
+.contactForm textarea {
+  margin-top: 4px;
+  padding: 10px;
+  border: 1px solid #b3c6e0;
+  border-radius: 6px;
+  font-size: 1em;
+  background: #fafdff;
+  transition: border 0.2s;
+}
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border: 1.5px solid #1976d2;
+  outline: none;
+}
+
+
+.contactForm button {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.08em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+.contactForm button:hover {
+  background: linear-gradient(90deg, #1565c0 60%, #42a5f5 100%);
+}
+
+.statusMsg {
+  text-align: center;
+  font-size: 1.05em;
+  margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+  .contactCard {
+    flex-direction: column;
+    padding: 24px 8px;
+    gap: 24px;
+  }
+  .leftPane, .rightPane {
+    border: none;
+    padding: 0;
+    max-width: 100%;
+  }
+}

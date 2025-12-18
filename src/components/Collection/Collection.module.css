@@ -1,0 +1,71 @@
+/* Collection.module.css */
+.collection {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  position: relative;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+.collection-card {
+  height: 350px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  padding: 2.5rem;
+  background-size: cover;
+  background-position: center;
+  transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 8px 32px rgba(15, 23, 42, 0.15);
+  cursor: pointer;
+}
+.collection-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: inherit;
+  background-size: inherit;
+  background-position: inherit;
+  z-index: 0;
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.collection-card:hover::before {
+  transform: scale(0.92) translateY(12px);
+}
+.collection-data {
+  position: relative;
+  z-index: 1;
+}
+.collection-card-suv {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+}
+.collection-card-sports {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1494972308805-463bc619d34e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+}
+.collection-data {
+  z-index: 1;
+}
+.collection-name {
+  font-size: 2rem;
+  color: #ffffff;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.collection-description {
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+  max-width: 400px;
+  line-height: 1.6;
+}
+@media screen and (min-width: 576px) {
+  .collection-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

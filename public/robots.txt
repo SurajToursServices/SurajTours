@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suraj-tours.github.io/RentalCar/sitemap.xml
