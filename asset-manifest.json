@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/RentalCar/static/css/main.8f9285f8.css",
-    "main.js": "/RentalCar/static/js/main.4ad1c403.js",
-    "static/media/boxicons.svg": "/RentalCar/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
-    "static/media/boxicons.eot": "/RentalCar/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
-    "static/media/boxicons.woff": "/RentalCar/static/media/boxicons.d12afc36557395143e4b.woff",
-    "static/media/boxicons.ttf": "/RentalCar/static/media/boxicons.db9ddb1898dbd76badca.ttf",
-    "static/media/boxicons.woff2": "/RentalCar/static/media/boxicons.df635aaf04cd75132f62.woff2",
-    "index.html": "/RentalCar/index.html",
-    "main.8f9285f8.css.map": "/RentalCar/static/css/main.8f9285f8.css.map",
-    "main.4ad1c403.js.map": "/RentalCar/static/js/main.4ad1c403.js.map"
+    "main.css": "/SurajTours/static/css/main.3de8f5e7.css",
+    "main.js": "/SurajTours/static/js/main.4ad1c403.js",
+    "static/media/boxicons.svg": "/SurajTours/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
+    "static/media/boxicons.eot": "/SurajTours/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
+    "static/media/boxicons.woff": "/SurajTours/static/media/boxicons.d12afc36557395143e4b.woff",
+    "static/media/boxicons.ttf": "/SurajTours/static/media/boxicons.db9ddb1898dbd76badca.ttf",
+    "static/media/boxicons.woff2": "/SurajTours/static/media/boxicons.df635aaf04cd75132f62.woff2",
+    "index.html": "/SurajTours/index.html",
+    "main.3de8f5e7.css.map": "/SurajTours/static/css/main.3de8f5e7.css.map",
+    "main.4ad1c403.js.map": "/SurajTours/static/js/main.4ad1c403.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f9285f8.css",
+    "static/css/main.3de8f5e7.css",
     "static/js/main.4ad1c403.js"
   ]
 }
