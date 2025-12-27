@@ -85,6 +85,13 @@
     width: 98vw;
     max-width: 99vw;
     padding: 1rem 0.5rem;
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .form {
+    max-height: 75vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
 
