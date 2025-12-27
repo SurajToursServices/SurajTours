@@ -35,7 +35,6 @@ const Contact = () => {
     <div className={styles.contactPage}>
       <Header />
       <main className={styles.contactMain}>
-        <h1 className={styles.pageTitle}>Contact Us</h1>
         <div className={styles.contactCard}>
           <div className={styles.leftPane}>
             <div className={styles.aboutSection}>

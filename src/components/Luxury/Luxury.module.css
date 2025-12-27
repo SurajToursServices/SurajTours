@@ -1,3 +1,34 @@
+/* Ensure card content and button are spaced to always keep button at the bottom, even if info and button are in separate divs */
+.vehicle-luxury > div {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+.vehicle-info .button,
+.vehicle-info .button-small {
+  margin-top: 1rem;
+  align-self: stretch;
+}
+/* Ensure card content and button are spaced to always keep button at the bottom */
+.vehicle-luxury {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.vehicle-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  justify-content: space-between;
+  height: 100%;
+}
+.vehicle-info .button,
+.vehicle-info .button-small {
+  margin-top: 1rem;
+  align-self: stretch;
+}
 /* Luxury.module.css */
 .luxury {
   background: #ffffff;
@@ -19,11 +50,14 @@
 }
 .luxury-img {
   width: 100%;
-  height: 250px !important;
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
   object-fit: contain;
+  display: block;
   padding: 2rem;
-  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 .vehicle-luxury:hover .luxury-img {
   transform: scale(1.08) rotate(-3deg);

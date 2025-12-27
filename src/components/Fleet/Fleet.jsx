@@ -112,15 +112,13 @@ const Fleet = () => {
 									carList.filter(car => car.category === selectedCategory).map(car => (
 										<div className={styles['fleet-vehicle-card']} key={car.name}>
 											<img src={car.img} alt={car.name} className={styles['fleet-vehicle-img']} />
-											<div className={styles['fleet-vehicle-overlay']}>
-												<div className={styles['fleet-vehicle-info']}>
-													<h4>{car.name}</h4>
-													<span className="price">{car.price}</span>
-													<div className="features">
-														<span><i className="bx bx-user"></i> {car.features[0]}</span>
-														<span><i className="bx bx-gas-pump"></i> {car.features[1]}</span>
-														<span><i className="bx bx-cog"></i> {car.features[2]}</span>
-													</div>
+											<div className={styles['fleet-vehicle-info']}>
+												<h4>{car.name}</h4>
+												<span className="price">{car.price}</span>
+												<div className="features">
+													<span><i className="bx bx-user"></i> {car.features[0]}</span>
+													<span><i className="bx bx-gas-pump"></i> {car.features[1]}</span>
+													<span><i className="bx bx-cog"></i> {car.features[2]}</span>
 												</div>
 												<button className="button" onClick={() => handleRentClick(car.name)}>Rent Now</button>
 											</div>
